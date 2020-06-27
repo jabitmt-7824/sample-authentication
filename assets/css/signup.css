@@ -1,0 +1,47 @@
+main{
+	width: 98.5vw;
+	height: 90vh;
+	background-color: #4646a8;
+	display: flex;
+	flex-direction: row; 
+	justify-content: center;
+	align-items: center;
+}
+
+#signup{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	border-radius: 20px;
+}
+
+#signup h2{
+	text-align: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+	border:1px solid black;
+}
+
+button{
+	margin-top: 0.7rem; 
+	margin-bottom: 0.7rem;
+}
+
+@media all and (max-width: 600px)
+{
+	main{
+
+		 display: block;
+	}
+	#signup{
+		width:80%;
+		margin-left:10%;
+	}
+}

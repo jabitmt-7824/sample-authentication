@@ -1,0 +1,27 @@
+header{
+	background-color: black;
+	color:white;
+	font-weight: bold;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h2{
+	margin-left: 2rem;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+}
+
+header a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+#header-link a{
+	margin-right: 1rem;
+}

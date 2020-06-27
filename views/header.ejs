@@ -1,0 +1,10 @@
+<link rel="stylesheet" type="text/css" href="/css/header.css">
+<header>
+    <h2>Sample Authentication System</h2>
+    <% if(locals.user){ %>
+    <div id="header-link">
+        <a href="#">Reset Passsword</a>
+        <a href="/signout-user">SignOut</a>
+    </div>
+    <%}%>
+</header>
