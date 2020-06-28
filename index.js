@@ -58,5 +58,5 @@ app.listen(port,function(err){
         console.log(`error: ${err}`);
         return;
     }
-    console.log("server is successfully setup and running on the port:", port);
+    console.log(`server is successfully setup and running on the port:${port}`);
 });

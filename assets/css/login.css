@@ -1,3 +1,4 @@
+/*  Main Content section */ 
 main{
 	width: 97.9vw;
 	height: 90vh;
@@ -8,6 +9,7 @@ main{
 	align-items: center;
 }
 
+/*  Login section */ 
 #login{
 	width: 50%;
 	margin-left:40%;
@@ -17,11 +19,11 @@ main{
 	background-color: white;
 	border-radius: 20px;
 }
-
+/*  login head */ 
 #login h2{
 	text-align: center;
 }
-
+/*  login form */ 
 form{
 	display: flex;
 	flex-direction: column;
@@ -29,16 +31,16 @@ form{
 	margin-bottom: 2rem;
 	border:1px solid black;
 }
-
+/* login buttons */
 button{
 	margin-top: 0.7rem; 
 	margin-bottom: 0.7rem;
 }
-
+/* login links */
 #login a{
 	margin: 1rem;
 }
-
+/* google authentication link */
 #google-auth i{
 	margin-right: 0.5rem;
 }
