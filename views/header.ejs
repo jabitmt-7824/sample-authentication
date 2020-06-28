@@ -6,7 +6,7 @@
     <!--    links for signin user    -->
     <% if(locals.user){ %>
     <div id="header-link">
-        <a href="#">Reset Passsword</a>
+        <a href="/user/reset-password/request/<%= locals.user._id %>">Reset Passsword</a>
         <a href="/signout-user">SignOut</a>
     </div>
     <%}%>

@@ -1,0 +1,17 @@
+<link rel="stylesheet" type="text/css" href="/css/reset_pass.css">
+<main>
+
+    <!-- Reset password section -->
+    <div id="reset">
+    <h2>RESET PASSWORD</h2>
+
+    <!-- Reset password form -->
+    <form action="/user/reset-password/<%= user._id %>" method="POST">
+        <label for="password" >Password:</label>
+        <input type="password" name="password" id="password">
+        <label for="confirm" >Confirm Password:</label>
+        <input type="password" name="confirm" id="confirm">
+        <button>Reset</button>
+    </form>
+    </div>
+</main>
