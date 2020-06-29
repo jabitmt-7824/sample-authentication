@@ -51,3 +51,6 @@
 
 ### how to start
     npm start
+
+### when running in local system
+    - in cofig/nodemailer , auth part of transporter give your email as user and thier password as pass
